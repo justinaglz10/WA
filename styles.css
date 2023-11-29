@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Ensure full viewport height */
+    margin: 0;
+}
+
+#fileContent {
+    text-align: center;
+    width: 50%; /* Adjust the width as needed */
+    border: 1px solid #ccc; /* Optional: add a border for clarity */
+    padding: 10px; /* Optional: add some padding for better visual appearance */
+    margin-top: 10px; /* Add margin at the top for spacing */
+}
+
+#fileInput {
+    margin-bottom: 10px;
+}
