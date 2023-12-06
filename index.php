@@ -77,8 +77,6 @@
                     fileContentElement.textContent = "No class names, variables, or operations found.";
                 }
             };
-            // this is a test of a change
-            <p>This is a change output in HTML.</p>  
             
             reader.readAsText(file);
         }
